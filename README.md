@@ -24,3 +24,6 @@ For a given tag, calculate the average response time between comments for indivi
 Return comments for posts with the :tagname tag that were created as k's in order (:position) sorted by creation date procedure with :limit.
 4. GET /v3/posts/:postid?limit=:limit
 The output is a list of :thread limit size for the post with postid ID. The thread starts with postid and continues with posts, where postid is a parentid sorted by creation date starting from the oldest.
+
+Task 4:
+The main objective is to design the database by creating a relational data model (physical model) in the form of a relational diagram for the museum database.
